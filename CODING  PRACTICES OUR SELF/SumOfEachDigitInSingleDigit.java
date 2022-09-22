@@ -40,7 +40,10 @@ public class SumOfEachDigitInSingleDigit {
 //method second 
     public void method2(int n){
      int res = n%9;
-     System.out.println("This sum is : " + res);
-        
-    }
+     if(res!=0){
+        System.out.println("This sum is : " + res);
+     }
+     else{
+         System.out.println("This sum is : " + 9);
+     }
 }
