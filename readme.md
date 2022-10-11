@@ -1,43 +1,33 @@
-# Data Structures
-## What is Data Structure :
-```markdown
-A data structure is a storage that is used to store and organize data. It is a way of arranging data on a computer so that it can be accessed and updated efficiently. Data structures are used to store collections of data, the relationships among them, and the functions or operations that can be applied to the data.
-A data structure is not only used for organizing the data. It is also used for processing, retrieving, and storing data. There are different basic and advanced types of data structures that are used in almost every program or software system that has been developed. So we must have good knowledge about data structures.
-``` 
-## Types of Data Structures :
+<p align="center">
+    <img src="https://readme-typing-svg.herokuapp.com?font=Tourney&center=true&color=2CFF00&size=40&width=750&height=80&lines=The+Complete+DSA+Preparation"/>
+</p>
 
-![image](https://user-images.githubusercontent.com/83773953/195006171-683473f5-b413-4403-92f3-82e0f33cd56d.png)
+[![FAANG](https://github.com/AkashSingh3031/The-Complete-FAANG-Preparation/blob/master/images/MAANGM-Gray.gif)](https://github.com/AkashSingh3031/The-Complete-FAANG-Preparation)
 
-* Linear data structure: Data structure in which data elements are arranged sequentially or linearly, where each element is attached to its previous and next adjacent elements, is called a linear data structure. 
-Examples of linear data structures are array, stack, queue, linked list, etc.
-    * Static data structure: Static data structure has a fixed memory size. It is easier to access the elements in a static data structure. An example of this data structure is an array.
-    * Dynamic data structure: In dynamic data structure, the size is not fixed. It can be randomly updated during the runtime which may be considered efficient concerning the memory (space) complexity of the code. Examples of this data structure are queue, stack, etc.
-* Non-linear data structure: Data structures where data elements are not placed sequentially or linearly are called non-linear data structures. In a non-linear data structure, we can’t traverse all the elements in a single run only. Examples of non-linear data structures are trees, graphs, etc.
-    * Hierarchical data structure: In a hierarchical data structure, the data elements are arranged in a tree-like structure. The data elements are arranged in a hierarchical manner. Examples of this data structure are file system, directory structure, etc.
-    * Network data structure: In a network data structure, the data elements are arranged in a graph-like structure. The data elements are arranged in a network-like manner. Examples of this data structure are social network, etc.
-    * Relational data structure: In a relational data structure, the data elements are arranged in a table-like structure. The data elements are arranged in a relational manner. Examples of this data structure are database, etc.
 
-    ![image](https://user-images.githubusercontent.com/83773953/195006646-29b2f69f-3085-4f63-9bcd-a37edcbf753f.png)
+![Learn-DSA](https://socialify.git.ci/mindexpert7546/Learn-DSA/image?description=1&font=Inter&language=1&owner=1&pattern=Charlie%20Brown&theme=Dark)
 
-## Different data structures (DS) with topic-wise problems discussed in this repository.
+## 🏆 `Project Admin`
 
-## Introduction to Data Structures:
+<a href="https://github.com/mindexpert7546"><img src="https://user-images.githubusercontent.com/89348788/188284498-10af1a38-440f-4c18-9c7e-fccc3f1b74ce.png" width=200px height=200px /></a> |
+| :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
+## Connect with me:
+<p align="left">
 
-* What is Data Structure: Types, Classifications and Applications
-* Introduction to Data Structures
-* Common operations on various Data Structures
+<a href = "https://www.linkedin.com/in/kundan-kumar-841843225"><img src="https://img.icons8.com/fluent/48/000000/linkedin.png"/></a>
+<a href = "https://twitter.com/krishna_coder/"><img src="https://img.icons8.com/fluent/48/000000/twitter.png"/></a>
+<a href = "https://www.instagram.com/krishna_.coder/"><img src="https://img.icons8.com/fluent/48/000000/instagram-new.png"/></a>
+<a href = "https://youtube.com/channel/UCufy0xoZ2EMIVZ26-0WKNew"><img src="https://img.icons8.com/color/48/000000/youtube-play.png"/></a>
 
-## Popular types of Data Structures:
-
-* Array
-* Linked List
-* Stack
-* Queue
-* Binary Tree
-* Binary Search Tree
-* Heap
-* Hashing
-* Graph
-* Matrix
-* Misc
-* Advanced Data Structure
+</p>
+  
+  <img src="https://github.com/Kavindu-Dilhara/Kavindu-Dilhara/blob/main/kavi.gif" width="300%">
+  
+  
+  
+  ## ❤ Views and Followers
+  
+<a href="https://github.com/Meghna-DAS/github-profile-views-counter">
+    <img src="https://komarev.com/ghpvc/?username=mindexpert7546">
+</a>
+<a href="https://github.com/mindexpert7546?tab=followers"><img src="https://img.shields.io/github/followers/mindexpert7546?label=Followers&style=social" alt="GitHub Badge"></a>
