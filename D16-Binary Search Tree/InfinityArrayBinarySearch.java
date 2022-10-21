@@ -5,6 +5,11 @@ public class InfinityArryBinarySearch {
     public static void main(String[] args) {
     int[] arr = {2,34,56,78,90,122,123,124,136,345};
     int target = 121;
+        
+        //output -1;
+        // if target is 122 
+        // output : 5 that is index of 122
+        
     int res = binarySearch(arr, target);
         System.out.println(res);
     }
