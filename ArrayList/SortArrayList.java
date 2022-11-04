@@ -18,13 +18,15 @@ public class SortArrayList {
         list.add(53);
         list.add(73);
         list.add(90);
-        
+
         // To sort the array list
         Collections.sort(list);
         System.out.println(list);
+        //Output will be : [20, 23, 26, 43, 53, 56, 65, 73, 90, 98, 918]
 
         // sort the array list in reverse order
         Collections.sort(list, Collections.reverseOrder());
         System.out.println(list);
+        //Output will be : [918, 98, 90, 73, 65, 56, 53, 43, 26, 23, 20]
     }
 }
