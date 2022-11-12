@@ -1,0 +1,44 @@
+Mark is an undergraduate student and he is interested in rotation. A conveyor belt competition is going on in the town which Mark wants to win. In the competition, there's A conveyor belt which can be represented as a strip of 1xN blocks. Each block has a number written on it. The belt keeps rotating in such a way that after each rotation, each block is shifted to left of it and the first block goes to last position.
+
+// There is a switch near the conveyer belt which can stop the belt. Each participant would be given a single chance to stop the belt and his PMEAN would be calculated.
+
+// PMEAN is calculated using the sequence which is there on the belt when it stops. The participant having highest PMEAN is the winner. There can be multiple winners.
+
+// Mark wants to be among the winners. What PMEAN he should try to get which guarantees him to be the winner.
+
+import java.io.*;
+import java.util.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+        /* Enter your code here. Read input from STDIN. Print output to STDOUT. Your class should be named Solution. */
+        
+        
+        Scanner in = new Scanner(System.in);
+          int n = in.nextInt();
+         Long[] num = new Long[n];
+         Long array_sum = 0L;
+         Long weight = 0L;
+        for(int i = 0;i < n;i++){
+             num[i]= in.nextLong();
+            array_sum += num[i];
+            weight += (i+1) * num[i];
+         }
+         Long max = weight;
+         for(int i = 0;i < n;i++){
+             weight = weight - array_sum + n*num[i];
+             max = Math.max(max, weight);
+         }
+         
+         // result 
+         
+                  System.out.println(max);
+                  
+                  
+                  
+        
+        
+    }
+}
+
