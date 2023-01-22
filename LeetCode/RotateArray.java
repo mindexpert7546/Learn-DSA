@@ -6,14 +6,13 @@
 class Solution {
     public void rotate(int[] nums, int k) {
         int len = nums.length;
-        k=k%len;
-        rev(nums,0,len-k-1);
-        rev(nums,len-k, len-1);
-        rev(nums,0,len-1);
+        k = k%len;
+        revR(nums,0,len-k-1);
+        revR(nums,len-k,len-1);
+        revR(nums,0,len-1);
         
     }
-
-    public static int[] rev(int[] nums, int low, int heigh){
+    public static int[] revR(int[] nums,int low , int heigh){
         while(low<heigh){
             int temp = nums[low];
             nums[low] = nums[heigh];
@@ -22,6 +21,7 @@ class Solution {
             low++;
             heigh--;
         }
+
         return nums;
     }
 }
