@@ -37,8 +37,9 @@ public class PostOrderTraversal {
             return;
         }
         postOrder(root.left);
-        System.out.print(root.data+ " ");
+       
         postOrder(root.right);
+         System.out.print(root.data+ " ");
     }
 
     public static void main(String[] args) {
