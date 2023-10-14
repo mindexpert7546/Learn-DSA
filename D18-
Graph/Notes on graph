@@ -1,0 +1,46 @@
+What is a Graph:
+
+A graph is a data structure that consists of a finite set of vertices (or nodes) and a set of edges connecting these vertices.
+Components of a Graph:
+
+Vertex (Node): Each element in a graph is called a vertex or node. Vertices represent entities, and they are often labeled with unique identifiers.
+
+Edge: Edges represent the connections or relationships between vertices. An edge is defined by a pair of vertices and can be directed (one-way) or undirected (two-way).
+
+Adjacency: Two vertices are said to be adjacent if there is an edge connecting them.
+
+Types of Graphs:
+
+Directed Graph (DiGraph): In a directed graph, edges have a direction. If there is an edge from vertex A to vertex B, it does not imply the existence of an edge from B to A.
+
+Undirected Graph: In an undirected graph, edges do not have a direction. If there is an edge between vertex A and B, it implies a two-way relationship.
+
+Weighted Graph: In a weighted graph, each edge is assigned a numerical value or weight, which represents some measure like distance, cost, or time.
+
+Cyclic Graph: A graph is cyclic if there exists at least one cycle (a path that starts and ends at the same vertex).
+
+Acyclic Graph: A graph is acyclic if it contains no cycles.
+
+Connected Graph: A graph is connected if there is a path between any pair of vertices.
+
+Disconnected Graph: A graph is disconnected if there are some vertices without any connection to the rest of the graph.
+
+Tree: A special type of graph that is acyclic and connected. A tree is a hierarchical structure with a root node and branches.
+
+Common Graph Algorithms:
+
+Breadth-First Search (BFS): Used to explore all the vertices in a graph, layer by layer, starting from a given source vertex.
+
+Depth-First Search (DFS): Used to explore as far as possible along each branch before backtracking.
+
+Dijkstra's Algorithm: Finds the shortest path between two vertices in a weighted graph.
+
+Bellman-Ford Algorithm: Finds the shortest path between two vertices in a weighted graph, even if negative weights are present.
+
+Kruskal's Algorithm: Finds the minimum spanning tree in a connected, undirected graph.
+
+Topological Sorting: Arranges the vertices of a directed acyclic graph in a linear order based on their dependencies.
+
+Applications of Graphs:
+
+Graphs are widely used to model and solve problems in various domains, including computer science, transportation, social networks, and more. Some applications include route planning, social network analysis, recommendation systems, and network flow optimization.
